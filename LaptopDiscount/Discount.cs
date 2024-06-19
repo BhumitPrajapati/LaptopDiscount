@@ -39,7 +39,6 @@ namespace LaptopDiscount
                     discount = 0.22m; // 20% discount
                     break;
             }
-
             return Price - (Price * discount);
         }
     }
